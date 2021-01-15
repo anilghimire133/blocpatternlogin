@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class PageTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -6,8 +7,10 @@ class PageTwo extends StatelessWidget {
       appBar: AppBar(
         title: Text("Page Two"),
       ),
-      body: Container(
-        child: Text("Page to is loading here"),
+      body: Center(
+        child: Container(
+          child: Text("Page to is loading here yes "),
+        ),
       ),
     );
   }
